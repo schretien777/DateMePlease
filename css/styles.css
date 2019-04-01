@@ -1,0 +1,220 @@
+body{
+  font-family: "Montserrat";
+}
+
+#title{
+  background-color: #ff4c68;
+}
+h1{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
+/* Fluid when it shrink */
+.container-fluid{
+  padding: 3% 15% 4%;
+
+}
+.despair{
+  color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+/* **************************navbar **************************** */
+.navbar{
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 35px;
+  font-weight: bold;
+
+}
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 100;
+}
+
+/* ************************** Download button **************************** */
+.download{
+  margin: 5% 3% 5% 0;
+}
+
+/* **************************Iphone picture **************************** */
+.picture{
+  width: 55%;
+  transform: rotate(25deg);
+  margin-left: 40px;
+  margin-top: 25px;
+  position: absolute; /*need a position to be behind the white background */
+}
+
+/* **************** arrange the picture when it is on mobile size ***************** */
+@media (max-width: 992px) {
+  .picture{
+    position: static;
+    width: 200px;
+    transform: rotate(360deg);
+
+        }
+  #title{
+      text-align: center;
+
+  }
+  .moving{
+   padding-right: 60px;    /* it center the picture in the middle  */
+  }
+}
+
+
+
+
+/* ****************the 3 boxes below the iphone image ************************/
+
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative; /*need a position to use z-index and be in front of picture */
+  z-index: 1;
+
+
+}
+
+.boxes{
+  text-align: center;
+  padding: 5%;
+  }
+
+  h3{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 27px;
+  }
+
+p{
+  color: #8f8f8f;
+  font-size: 13px;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* **************** testimonial ************************/
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+
+  }
+
+  h2{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 1.5;
+  }
+
+.xochitl{
+  width: 15%;
+ border-radius: 100%;  /*make image round */
+ margin: 20px;
+}
+
+.bridget{
+  width: 15%;
+ border-radius: 100%;  /*make image round */
+ margin: 20px;
+}
+
+.ken{
+  width: 15%;
+ border-radius: 100%;  /*make image round */
+ margin: 20px;
+}
+
+
+ .carousel-item{
+     padding: 7% 15%;   /*By padding this class it allows the arrow to be outside of the box */
+
+ }
+
+/* **************** Press section ************************/
+#press{
+  background-color: #ef8172;
+  text-align: center;
+
+
+}
+.pressLogo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* **************** Pricing section ************************/
+
+
+#pricing{
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.pricing-Padding{
+  padding: 3% 2%;
+}
+.card-header{
+  background-color: #ef8172;
+}
+
+.plancolor{
+  color: white;
+}
+
+.button-color{
+  background-color: black;
+}
+
+.button-color:hover{
+  background-color: #d3d4d8;
+}
+
+/* ************************ Stop longing for love ************************ */
+#lastsection{
+  background-color: #ff4c68;
+  color: white;
+  padding: 7% 15%;
+   text-align: center;
+}
+ .changing{
+     font-family: "Montserrat";
+     font-weight: 900;
+     font-size: 3.5rem;
+     line-height: 1.5;
+
+ }
+
+/* ************************ Footer ************************ */
+
+#footer{
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.socialmedia{
+  margin: 20px 10px;
+  
+}
